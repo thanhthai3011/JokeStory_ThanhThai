@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.header-top{
+    width: 100%;
+    display: flex;
+}
+
+.right-item {
+    position: absolute;
+    right: 0;
+}
+.header-bottom{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #29b363;
+    height: 150px;
+    width: 100%;
+    /* align-items: center; */
+}
+.header-bottom  h3 span{
+    margin: auto 0;
+    height: 100%;
+    position: relative;
+}
+.header-content{
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+
+.main-content{
+    ;
+}

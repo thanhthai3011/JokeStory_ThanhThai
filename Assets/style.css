@@ -72,7 +72,7 @@ ul.list-btn{
     display: inline-block;
     padding:  10px;
 }
-button {
+input {
     width: 200px;
     padding: 8px 20px;
     color: white;
@@ -81,11 +81,11 @@ button {
     border: none;
 }
 
-.funny-btn > button{
+.funny-btn > input{
     background-color: #2c7edb;
     
 }
-.not-fun > button{
+.not-fun > input{
     background-color: #29b363;
 }
 /* -------------------FOOTER ----------------*/

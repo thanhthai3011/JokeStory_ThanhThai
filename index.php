@@ -19,7 +19,25 @@ $result = mysqli_query($con, "SELECT content FROM `story` WHERE id=1");
   <title>Joke story</title>
 </head>
 
+<script type="text/javascript" src="jquery-1.3.2.js"> </script>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $("#display").click(function() {
+
+      $.ajax({ //create an ajax request to display.php
+        type: "GET",
+        url: "showdata.php",
+        dataType: "html", //expect html to be returned                
+        success: function(response) {
+          $("#responsecontainer").html(response);
+        }
+
+      });
+    });
+  });
+</script>
 
 <body>
   <header>
